@@ -1,9 +1,9 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "../node_modules/tailwindcss/dist/base.min.css";
+@import "../node_modules/tailwindcss/dist/components.min.css";
+@import "../node_modules/tailwindcss/dist/utilities.min.css";
 
 body {
     background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
