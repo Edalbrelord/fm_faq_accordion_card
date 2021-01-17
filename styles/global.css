@@ -1,0 +1,11 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-attachment: fixed;
+}
